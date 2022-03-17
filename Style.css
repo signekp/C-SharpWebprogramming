@@ -1,0 +1,37 @@
+﻿body {
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+textbox {
+    background-color: gray;
+}
+
+#ButtonCreate, #ButtonShow, #ButtonEncrypt {
+    border-radius: 20px;
+    background-color: lightgray;
+    border: none; 
+}
+
+#TextBoxID, #TextBoxName, #TextBoxCodename, #TextBoxLang1, #TextBoxLang2, #TextBoxLang3, #TextBoxLang4, #TextBoxKey, #TextBoxName0, #TextBoxMessage {
+    background-color: lightgray;
+}
+
+#ListBoxShow {
+    background-color: lightgrey;
+}
+#ListBoxEncrypt {
+    background-color: lightgrey;
+}
+
+#all {
+    display: flex;
+}
+
+#container1, #container2 {
+    flex: 50%;
+}
+
+#container1 {
+    margin-left: 80px;
+}
